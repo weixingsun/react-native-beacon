@@ -1,16 +1,15 @@
 <img src="http://insideoutdoor.com/wp-content/uploads/2016/02/beacon-example31.png" width="130" align="left"> 
-# react-native-beacons-android
-A React-Native library for handling beacons on Android.  
+# react-native-beacon
+A React-Native library for handling beacons on Android/iOS.  
 <br/>
 <br/>
 
-This library works only on Android.  
-On iOS you should use  [react-native-ibeacon](https://www.npmjs.com/package/react-native-ibeacon) (I tried to name the events/method like react-native-ibeacon for semplifying Android/iOS code sharing).  
+This library inspired by 2 libs: react-native-ibeacon & react-native-beacons-android
 
 <br/>
 
 ## Setup  
-1. The library is available on npm, install it with: `npm install --save react-native-beacons-android`.  
+1. The library is available on npm, install it with: `npm install --save react-native-beacon`.  
 2. Link the library with your project:  
 If you're using React-Native < 0.29 install [rnpm](https://github.com/rnpm/rnpm) with the command `npm install -g rnpm` and then link the library with the command `rnpm link`.  
 If you're using React-Native >= 0.29 just link the library with the command `react-native link`.
@@ -18,17 +17,11 @@ If you're using React-Native >= 0.29 just link the library with the command `rea
 
 <br/>
 
-## Beta release 
-If you're interested you can find even more features (not documented in the README yet) in the new [2.0.0-beta release](
-https://github.com/mmazzarolo/react-native-beacons-android/issues/20)
-
-<br/>
-
 ## A simple example
 The following example will start detecting all the close iBeacons.  
 ```javascript
 import { DeviceEventEmitter } from 'react-native'
-import Beacons from 'react-native-beacons-android'
+import Beacons from 'react-native-beacon'
 
 // Tells the library to detect iBeacons
 Beacons.detectIBeacons()
