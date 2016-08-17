@@ -1,0 +1,25 @@
+{
+  "name": "react-native-beacon",
+  "version": "0.0.1",
+  "description": "A React-Native library for detecting beacons on Android/iOS",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weixingsun/react-native-beacon.git"
+  },
+  "keywords": [
+    "react-native",
+    "android",
+    "ios",
+    "beacons",
+    "ibeacons",
+    "altbeacons",
+    "beacon"
+  ],
+  "author": "Weixing Sun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weixingsun/react-native-beacon/issues"
+  },
+  "homepage": "https://github.com/weixingsun/react-native-beacon#readme"
+}
